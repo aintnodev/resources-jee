@@ -3,15 +3,24 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Roadmap Template</title>
+    <title>JEE Advanced 2024 Roadmap</title>
     <style>
+      @import url("https://fonts.googleapis.com/css2?family=Anek+Devanagari:wght@400;700&display=swap");
+
       body {
-        font-family: Arial, sans-serif;
-        margin: 0;
+        font-family: "Anek Devanagari", sans-serif;
+        margin: 0px 20px;
         padding: 0;
         background-color: #f2f2f2;
         color: #333;
       }
+
+      a {
+        outline: none;
+        text-decoration: none;
+        color: inherit;
+      }
+
       .container {
         max-width: 800px;
         margin: 20px auto;
@@ -20,26 +29,32 @@
         box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
         border-radius: 8px;
       }
+
       h1 {
         text-align: center;
         color: #007bff;
-        margin-bottom: 20px;
+        margin-bottom: 5px;
       }
+
       ul {
         list-style: none;
         padding: 0;
       }
+
       li {
         margin-bottom: 20px;
         padding: 15px;
         border-radius: 8px;
         background-color: #f7f7f7;
         box-shadow: 0 4px 6px rgba(0, 0, 0, 0.05);
+        transition: background-color 0.3s, box-shadow 0.3s;
       }
-      li.active {
-        background-color: #e6e6e6;
-        box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+
+      li:hover {
+        background-color: #e0e0e0;
+        box-shadow: 0 6px 8px rgba(0, 0, 0, 0.1);
       }
+
       .tag {
         display: inline-block;
         padding: 3px 8px;
@@ -49,24 +64,21 @@
         margin-left: 5px;
         color: #666;
       }
+
       .bold-text {
         font-weight: bold;
         font-size: 18px;
       }
+
       .subtask-list {
         padding-left: 20px;
         margin-top: 10px;
         list-style: disc;
       }
+
       .subtask {
         font-size: 14px;
         margin-top: 5px;
-      }
-
-      /* Remove hyperlink color and underline */
-      a {
-        color: inherit;
-        text-decoration: none;
       }
 
       /* ChatGPT-inspired UI */
@@ -74,7 +86,9 @@
         background-color: #f7f7f7;
         padding: 20px;
         border-radius: 8px;
+        margin-top: 30px;
       }
+
       .chat-message {
         background-color: #fff;
         box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
@@ -82,11 +96,54 @@
         padding: 10px;
         margin-bottom: 15px;
       }
+
+      .chat-bubble {
+        background-color: #eff3f6;
+        border-radius: 10px;
+        padding: 10px;
+        margin-bottom: 10px;
+        font-size: 14px;
+      }
+
+      .chat-bubble p {
+        margin: 0;
+      }
+
+      /* Countdown Timer Styling */
+      #countdown {
+        text-align: center;
+        font-size: 18px;
+        color: #333;
+        margin-top: 5px;
+      }
     </style>
+    <!-- Countdown Timer JavaScript -->
+    <script>
+      // Set the target date for the countdown (30th Nov 2023)
+      const targetDate = new Date("2023-11-30").getTime();
+
+      // Update the countdown every second
+      const countdown = () => {
+        const now = new Date().getTime();
+        const distance = targetDate - now;
+        const days = Math.floor(distance / (1000 * 60 * 60 * 24));
+
+        if (days > 1) {
+          document.getElementById("countdown").innerHTML =
+            "Hurry up! only " + days + " days left";
+        } else {
+          document.getElementById("countdown").innerHTML =
+            "Hurry up! only a day left";
+        }
+      };
+
+      setInterval(countdown, 1000);
+    </script>
   </head>
   <body>
     <div class="container">
       <h1>JEE Advanced 2024</h1>
+      <p id="countdown"></p>
       <ul>
         <!-- Your list items here -->
       </ul>
@@ -96,80 +153,91 @@
     <div class="container chat-container">
       <div class="chat-message">
         <ul>
-          <li class="list-item">
+          <ul>
             <a
               href="https://youtube.com/playlist?list=PL2dPD7oDhSn_AWsHY_tfVk0v5L0FPKj6i"
-              ><span class="bold-text">📚 Fundamentals</span></a
             >
-            <span class="tag">11 hrs</span>
-          </li>
-          <li class="list-item">
+              <li class="list-item">
+                <span class="bold-text">📚 Fundamentals</span>
+                <span class="tag">11 hrs</span>
+              </li></a
+            >
             <a
               href="https://www.youtube.com/playlist?list=PL2dPD7oDhSn8ccydX5qV7SWHz4HwYiEKi"
-              ><span class="bold-text"
-                >🔗 Set, Relations, Functions & Inequalities</span
-              ></a
             >
-            <span class="tag">16.5 hrs</span>
-          </li>
-          <li class="list-item">
+              <li class="list-item">
+                <span class="bold-text"
+                  >🔗 Set, Relations, Functions & Inequalities</span
+                >
+                <span class="tag">16.5 hrs</span>
+              </li></a
+            >
             <a
               href="https://youtube.com/playlist?list=PL2dPD7oDhSn9ckRZr8_tTEiD16NgQxujr"
-              ><span class="bold-text">➗ Quadratic Equations</span></a
             >
-            <span class="tag">23 hrs</span>
-          </li>
-          <li class="list-item">
+              <li class="list-item">
+                <span class="bold-text">➗ Quadratic Equations</span>
+                <span class="tag">23 hrs</span>
+              </li></a
+            >
             <a
               href="https://www.youtube.com/playlist?list=PL2dPD7oDhSn9LvrGnl7JfM35ELKPvBsEf"
-              ><span class="bold-text">🔼 Logarithm and Exponents</span></a
             >
-            <span class="tag">5 hrs</span>
-          </li>
-          <li class="list-item">
+              <li class="list-item">
+                <span class="bold-text">🔼 Logarithm and Exponents</span>
+                <span class="tag">5 hrs</span>
+              </li></a
+            >
             <a
               href="https://youtube.com/playlist?list=PL2dPD7oDhSn9G-UrS7bmMqFWa228_C3TS"
-              ><span class="bold-text">🔄 Sequence and Series</span></a
             >
-            <span class="tag">18.5 hrs</span>
-          </li>
-          <li class="list-item">
+              <li class="list-item">
+                <span class="bold-text">🔄 Sequence and Series</span>
+                <span class="tag">18.5 hrs</span>
+              </li>
+            </a>
             <a
               href="https://youtube.com/playlist?list=PL2dPD7oDhSn--VE2gHl0lNWDdh_AgMA9b"
-              ><span class="bold-text">📐 Trigonometry</span></a
             >
-            <span class="tag">35.5 hrs</span>
-          </li>
-          <li class="list-item">
+              <li class="list-item">
+                <span class="bold-text">📐 Trigonometry</span>
+                <span class="tag">35.5 hrs</span>
+              </li>
+            </a>
             <a
               href="https://youtube.com/playlist?list=PL2dPD7oDhSn_RuxShJx-WbwfKKdLGzjLr"
-              ><span class="bold-text">📏 Inverse Trigonometry</span></a
             >
-            <span class="tag">31 hrs</span>
-          </li>
-          <li class="list-item">
+              <li class="list-item">
+                <span class="bold-text">📏 Inverse Trigonometry</span>
+                <span class="tag">31 hrs</span>
+              </li>
+            </a>
             <a
               href="https://www.youtube.com/playlist?list=PL2dPD7oDhSn9h3NIkfgKYUayvA4lNyLkY"
-              ><span class="bold-text"
-                >🔀 Permutations and Combinations</span
-              ></a
             >
-            <span class="tag">19 hrs</span>
-          </li>
-          <li class="list-item">
+              <li class="list-item">
+                <span class="bold-text">🔀 Permutations and Combinations</span>
+                <span class="tag">19 hrs</span>
+              </li>
+            </a>
             <a
               href="https://youtube.com/playlist?list=PL2dPD7oDhSn94ONH81bb-Zkt7TYHOR-Vi"
-              ><span class="bold-text">📜 Binomial Theorem</span></a
             >
-            <span class="tag">31 hrs</span>
-          </li>
-          <li class="list-item">
+              <li class="list-item">
+                <span class="bold-text">📜 Binomial Theorem</span>
+                <span class="tag">31 hrs</span>
+              </li>
+            </a>
             <a
               href="https://youtube.com/playlist?list=PL2dPD7oDhSn8YdI6ImeGBfbXDZMvsQ5YZ"
-              ><span class="bold-text">🔢 Complex Numbers</span></a
             >
-            <span class="tag">44 hrs</span>
-          </li>
+              <li class="list-item">
+                <span class="bold-text">🔢 Complex Numbers</span>
+                <span class="tag">44 hrs</span>
+              </li>
+            </a>
+          </ul>
+          <!-- Add more list items -->
         </ul>
       </div>
     </div>
