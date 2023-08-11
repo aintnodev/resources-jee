@@ -4,7 +4,7 @@ This repository contains a web page for JEE 2024 countdown and study resources. 
 
 ## Preview
 
-![Preview Image](preview.jpg)
+![Preview Image](preview.png)
 
 ## Getting Started
 
