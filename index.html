@@ -1,0 +1,235 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>JEE Sauce - ishaang-dev</title>
+    <link
+      rel="icon"
+      type="image/png"
+      href="https://em-content.zobj.net/thumbs/320/google/350/direct-hit_1f3af.png"
+    />
+    <style>
+      @import url("https://fonts.googleapis.com/css2?family=Anek+Devanagari:wght@400;700&display=swap");
+
+      :root {
+        --text: #f6f7f9;
+        --background: #103767;
+        --primary: #0b68da;
+        --secondary: #051529;
+        --accent: #9ec7fa;
+      }
+
+      body {
+        font-family: "Anek Devanagari", sans-serif;
+        margin: auto 20px;
+        padding: 0;
+        color: var(--text);
+        background-color: var(--secondary);
+      }
+
+      a {
+        outline: none;
+        text-decoration: none;
+        color: inherit;
+      }
+
+      .container {
+        max-width: 800px;
+        margin: 20px auto;
+        padding: 20px;
+        background-color: var(--secondary);
+        /* box-shadow: 0 4px 10px rgba(255, 255, 255, 0.1); */
+        border-radius: 8px;
+      }
+
+      h1 {
+        text-align: center;
+        background: -webkit-linear-gradient(
+          120deg,
+          var(--primary),
+          var(--accent)
+        );
+        background: linear-gradient(120deg, var(--primary), var(--accent));
+        -webkit-background-clip: text;
+        background-clip: text;
+        -webkit-text-fill-color: transparent;
+        margin-bottom: 5px;
+      }
+
+      ul {
+        list-style: none;
+        padding: 0;
+      }
+
+      li {
+        margin-bottom: 20px;
+        padding: 15px;
+        border-radius: 8px;
+        border: solid 1px rgba(255, 255, 255, 0.2);
+        background-color: var(--secondary);
+        /* box-shadow: 0 4px 6px rgba(255, 255, 255, 0.05); */
+        transition: background-color 0.3s, box-shadow 0.3s;
+      }
+
+      li:hover {
+        box-shadow: 2px 2px 6px 3px rgba(255, 255, 255, 0.1);
+      }
+
+      .tag {
+        display: inline-block;
+        padding: 3px 8px;
+        border-radius: 4px;
+        background-color: var(--background);
+        font-size: 12px;
+        font-weight: bold;
+        margin-left: 5px;
+        color: var(--accent);
+      }
+
+      .bold-text {
+        font-weight: bold;
+        font-size: 18px;
+      }
+
+      .subtask-list {
+        padding-left: 20px;
+        margin-top: 10px;
+        list-style: disc;
+      }
+
+      .subtask {
+        font-size: 14px;
+        margin-top: 5px;
+      }
+
+      /* Countdown Timer Styling */
+      #countdown {
+        text-align: center;
+        font-size: 18px;
+        color: var(--text);
+        margin-top: 5px;
+      }
+    </style>
+
+    <script>
+      // Set the target date for the countdown (30th Nov 2023)
+      const targetDate = new Date("2023-11-30").getTime();
+
+      // Update the countdown every second
+      const countdown = () => {
+        const now = new Date().getTime();
+        const distance = targetDate - now;
+        const days = Math.floor(distance / (1000 * 60 * 60 * 24));
+
+        if (days > 1) {
+          document.getElementById("countdown").innerHTML =
+            "Hurry up! only " + days + " days left";
+        } else {
+          document.getElementById("countdown").innerHTML =
+            "Hurry up! only a day left";
+        }
+      };
+
+      setInterval(countdown, 1000);
+    </script>
+  </head>
+  <body>
+    <div class="container">
+      <h1>JEE Advanced 2024</h1>
+      <p id="countdown"></p>
+      <ul>
+        <!-- Your list items here -->
+      </ul>
+    </div>
+
+    <!-- ChatGPT-inspired UI -->
+    <div class="container">
+      <ul>
+        <a
+          href="https://youtube.com/playlist?list=PL2dPD7oDhSn_AWsHY_tfVk0v5L0FPKj6i"
+        >
+          <li class="list-item">
+            <span class="bold-text">1. Fundamentals</span>
+            <span class="tag">11 hrs</span>
+          </li></a
+        >
+        <a
+          href="https://www.youtube.com/playlist?list=PL2dPD7oDhSn8ccydX5qV7SWHz4HwYiEKi"
+        >
+          <li class="list-item">
+            <span class="bold-text"
+              >2. Set, Relations, Functions & Inequalities</span
+            >
+            <span class="tag">16.5 hrs</span>
+          </li></a
+        >
+        <a
+          href="https://youtube.com/playlist?list=PL2dPD7oDhSn9ckRZr8_tTEiD16NgQxujr"
+        >
+          <li class="list-item">
+            <span class="bold-text">3. Quadratic Equations</span>
+            <span class="tag">23 hrs</span>
+          </li></a
+        >
+        <a
+          href="https://www.youtube.com/playlist?list=PL2dPD7oDhSn9LvrGnl7JfM35ELKPvBsEf"
+        >
+          <li class="list-item">
+            <span class="bold-text">4. Logarithm and Exponents</span>
+            <span class="tag">5 hrs</span>
+          </li></a
+        >
+        <a
+          href="https://youtube.com/playlist?list=PL2dPD7oDhSn9G-UrS7bmMqFWa228_C3TS"
+        >
+          <li class="list-item">
+            <span class="bold-text">5. Sequence and Series</span>
+            <span class="tag">18.5 hrs</span>
+          </li>
+        </a>
+        <a
+          href="https://youtube.com/playlist?list=PL2dPD7oDhSn--VE2gHl0lNWDdh_AgMA9b"
+        >
+          <li class="list-item">
+            <span class="bold-text">6. Trigonometry</span>
+            <span class="tag">35.5 hrs</span>
+          </li>
+        </a>
+        <a
+          href="https://youtube.com/playlist?list=PL2dPD7oDhSn_RuxShJx-WbwfKKdLGzjLr"
+        >
+          <li class="list-item">
+            <span class="bold-text">7. Inverse Trigonometry</span>
+            <span class="tag">31 hrs</span>
+          </li>
+        </a>
+        <a
+          href="https://www.youtube.com/playlist?list=PL2dPD7oDhSn9h3NIkfgKYUayvA4lNyLkY"
+        >
+          <li class="list-item">
+            <span class="bold-text">8. Permutations and Combinations</span>
+            <span class="tag">19 hrs</span>
+          </li>
+        </a>
+        <a
+          href="https://youtube.com/playlist?list=PL2dPD7oDhSn94ONH81bb-Zkt7TYHOR-Vi"
+        >
+          <li class="list-item">
+            <span class="bold-text">9. Binomial Theorem</span>
+            <span class="tag">31 hrs</span>
+          </li>
+        </a>
+        <a
+          href="https://youtube.com/playlist?list=PL2dPD7oDhSn8YdI6ImeGBfbXDZMvsQ5YZ"
+        >
+          <li class="list-item">
+            <span class="bold-text">10. Complex Numbers</span>
+            <span class="tag">44 hrs</span>
+          </li>
+        </a>
+        <!-- Add more list items -->
+      </ul>
+    </div>
+  </body>
+</html>
