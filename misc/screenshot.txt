@@ -1,0 +1,1 @@
+resolution: 1440 * 810 (full-sized)

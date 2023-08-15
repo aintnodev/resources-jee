@@ -1,0 +1,79 @@
+.container {
+  margin: 1em auto;
+  padding: 1.2em;
+  background-color: var(--background);
+  border-radius: 0.5em;
+  max-width: 90%;
+}
+
+.welcome {
+  padding: 0em 1em;
+}
+
+a {
+  color: var(--accent);
+  text-decoration: none;
+}
+
+h1 {
+  font-size: 2.5em;
+  text-align: center;
+  background: linear-gradient(120deg, var(--primary), var(--accent));
+  -webkit-background-clip: text;
+  background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+h2 {
+  margin-bottom: 1.5em;
+}
+
+h3 {
+  margin-top: 2em;
+}
+
+.resources {
+  /* max-width: 80%; */
+  display: grid;
+  grid-template-columns: 1fr;
+  grid-gap: 1em;
+}
+
+.shadow-box {
+  display: block;
+  padding: 1em;
+  outline: none;
+
+  color: inherit;
+  border: solid 1px rgba(255, 255, 255, 0.2);
+  border-radius: 8px;
+  transition: background-color 0.3s, box-shadow 0.3s;
+}
+
+.resources a:hover {
+  box-shadow: 0px 0px 6px 4px rgba(255, 255, 255, 0.1);
+}
+
+.tag {
+  display: inline-block;
+  padding: 0.2em 0.5em;
+  border-radius: 4px;
+  background-color: var(--secondary);
+  font-size: 0.8em;
+  font-weight: bold;
+  margin: 0.5em;
+  color: var(--accent);
+}
+
+#countdown {
+  text-align: center;
+  color: var(--text);
+}
+
+#contribute div p {
+  margin: 0.5em auto;
+}
+
+#contribute div ul li {
+  margin: 0.5em auto;
+}

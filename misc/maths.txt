@@ -1,0 +1,10 @@
+1. Fundamentals 11 hrs
+2. Set, Relations, Functions & Inequalities 16.5 hrs
+3. Quadratic Equations 23 hrs
+4. Logarithm and Exponents 5 hrs
+5. Sequence and Series 18.5 hrs
+6. Trigonometry 35.5 hrs
+7. Inverse Trigonometry 31 hrs
+8. Permutations and Combinations 19 hrs
+9. Binomial Theorem 31 hrs
+10. Complex Numbers 44 hrs
