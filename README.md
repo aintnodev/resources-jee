@@ -1,42 +1,45 @@
-# Sauce - for JEE
+# Sauce - for JEE 🚀
 
-This repository contains a web page for JEE 2024 countdown and study resources. It's designed to display the countdown timer and provide study resources for various topics.
+![Project Logo](image/markdown/backdrop.png)
 
-## Preview
+Hey there, fellow JEE aspirant! 🌟 If you're on a journey to conquer the IIT-JEE, you're in for a treat. **Sauce - for JEE** is your go-to hub for a carefully curated collection of JEE resources that are here to assist, not overwhelm!
 
-![Preview Image](preview.png)
+## What's Inside? 📚
 
-## Getting Started
+Think of Sauce - for JEE as your treasure chest of study materials and tools to enhance your JEE preparation. It's not about reinventing the wheel but rather about steering you in the right direction. Keep your resources simple, focused, and effective.
 
-1. Clone this repository to your local machine.
-2. Open the `index.html` file in your web browser to view the countdown and study resources.
+## The Recipe for Success 📋
 
-## Features
+Here's how we're making your JEE prep experience exceptional:
 
-- Countdown timer for JEE Advanced 2024.
-- Study resources for various topics.
-- Responsive design for different screen sizes.
+- **Resource Collection**: We've handpicked a range of resources that cover the JEE essentials. Consider this your one-stop shop for quality materials.
 
-## Study Resources
+- **Online Learning Power**: Embrace the beauty of online learning, just like we did! Online coaching is a game-changer, and we're all about harnessing its potential.
 
-Check out the study resources provided in the web page:
+- **Minimalistic Magic**: We're advocates of the less-is-more philosophy. No need for information overload. We encourage you to keep your resource pool lean and effective.
 
-1. [Fundamentals](https://youtube.com/playlist?list=PL2dPD7oDhSn_AWsHY_tfVk0v5L0FPKj6i) - 11 hrs
-2. [Set, Relations, Functions & Inequalities](https://www.youtube.com/playlist?list=PL2dPD7oDhSn8ccydX5qV7SWHz4HwYiEKi) - 16.5 hrs
-3. [Quadratic Equations](https://youtube.com/playlist?list=PL2dPD7oDhSn9ckRZr8_tTEiD16NgQxujr) - 23 hrs
-4. [Logarithm and Exponents](https://www.youtube.com/playlist?list=PL2dPD7oDhSn9LvrGnl7JfM35ELKPvBsEf) - 5 hrs
-5. [Sequence and Series](https://youtube.com/playlist?list=PL2dPD7oDhSn9G-UrS7bmMqFWa228_C3TS) - 18.5 hrs
-6. [Trigonometry](https://youtube.com/playlist?list=PL2dPD7oDhSn--VE2gHl0lNWDdh_AgMA9b) - 35.5 hrs
-7. [Inverse Trigonometry](https://youtube.com/playlist?list=PL2dPD7oDhSn_RuxShJx-WbwfKKdLGzjLr) - 31 hrs
-8. [Permutations and Combinations](https://www.youtube.com/playlist?list=PL2dPD7oDhSn9h3NIkfgKYUayvA4lNyLkY) - 19 hrs
-9. [Binomial Theorem](https://youtube.com/playlist?list=PL2dPD7oDhSn94ONH81bb-Zkt7TYHOR-Vi) - 31 hrs
-10. [Complex Numbers](https://youtube.com/playlist?list=PL2dPD7oDhSn8YdI6ImeGBfbXDZMvsQ5YZ) - 44 hrs
+## Ready to Dive In? 🍔
 
-## Contributors
+### Resources at Your Fingertips
 
-- [ishaang-dev](https://github.com/ishaang-dev)
+Visit our [Sauce - for JEE website](https://ishaang-dev.github.io/resources-jee/) to explore a curated collection of resources that can help you on your JEE journey. From concept refreshers to practice problems, it's all here, waiting for you!
 
-Feel free to contribute and add more study resources!
+### Embrace Online Learning
 
----
-*This project is created for educational purposes.*
+While we're all about curated resources, we also believe in the power of online coaching. Explore reputable online platforms to complement your preparation and make the most of your time.
+
+### Keep It Simple, Ace It Big
+
+Remember, quality beats quantity. It's not about how many resources you have; it's about how well you use them. Craft a study plan that resonates with your style and pace.
+
+## Let's Contribute! 🌶️
+
+Have a gem of a resource to share? We welcome contributions that align with our philosophy. Let's keep it focused, helpful, and impactful. Share your suggestions and let's make the JEE prep journey smoother for everyone! Read our [Contribution Guidelines](CONTRIBUTING.md) for more details.
+
+## Your Success, Your Way 🎩
+
+This project is all about sharing knowledge and supporting each other. Feel free to explore the resources and use them to pave your path to JEE success. Remember, you're in control of your journey!
+
+Hungry for more details? Reach out to us anytime on [Telegram](https://t.me/sauceforjee).
+
+So, are you ready to rock your JEE prep with the power of minimalistic, quality resources? Let's dive in and make your journey a memorable one! 🥄🎓🔥
